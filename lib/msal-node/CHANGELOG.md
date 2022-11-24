@@ -1,8 +1,16 @@
 # Change Log - @azure/msal-node
 
-This log was last generated on Mon, 21 Nov 2022 19:14:45 GMT and should not be manually modified.
+This log was last generated on Thu, 24 Nov 2022 01:47:22 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.14.5
+
+Thu, 24 Nov 2022 01:47:22 GMT
+
+### Patches
+
+- Serialize/deserialize access token userAssertionHash property to fix cache persistence issue in OBO flow #5398 (v-derisen@microsoft.com)
 
 ## 1.14.4
 
